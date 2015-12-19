@@ -1,0 +1,2 @@
+include_rules
+: src/*.o src/gridworld/gridworld.a src/util/util.a |> $(CC) %f -o %o $(CLFLAGS) |> gridworld
