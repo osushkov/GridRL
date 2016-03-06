@@ -1,5 +1,4 @@
 CC = g++
-CUDACC = nvcc
 
 CCFLAGS += -std=c++1y
 CCFLAGS += -I/usr/local/include
